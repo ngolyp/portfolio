@@ -1,0 +1,347 @@
+[class*="col-"] {
+    padding: 1rem;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #222;
+}
+
+.navbar {
+    background-color: #505962;
+}
+
+.navbar-nav li {
+    padding-right: 30px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.fa-home {
+    padding-right: 0.1rem;
+}
+
+.fa-folder {
+    padding-right: 0.2rem;
+}
+
+.fa-male {
+    padding-right: 0.25rem;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-72%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-shadow: 5px 3px 5px #000000;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 5px 3px 5px #000000;
+}
+
+.carousel-inner img {
+    height: 100vh;
+    width: 99.9vw;
+}
+
+.social a {
+    font-size: 3.5em;
+    padding: 1.5rem;
+}
+
+.card {
+    margin: 1rem;
+    padding: 3rem 5rem 2rem 5rem;
+    border-color: #505962;
+    border-style: solid;
+    border-width: .3rem;
+    border-radius: 35px 35px 35px 35px;
+}
+
+
+.card h4 {
+    margin-bottom: 1.3rem;
+}
+
+.footer .row {
+    /* background-color: #505962; */
+    padding: 1rem 2rem 3rem;
+    color: #222;
+}
+
+.card img {
+    height: 350px;
+    width: 450px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact h2 {
+    padding-bottom: 1.5rem;
+}
+
+.fa-envelope,
+.fa-linkedin,
+.fa-github,
+.fa-free-code-camp {
+    color: #333;
+}
+
+.fa-envelope:hover,
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-free-code-camp:hover {
+    color: #111;
+}
+
+hr {
+    border-color: #222;
+}
+
+#hrfooter {
+    width: 75%;
+}
+
+.card-text {
+    text-align: left;
+}
+
+#projectcaption {
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+.footer2 {
+    background-color: #505962;
+    color: #eee;
+}
+
+.footer3 {
+    padding: 0.8rem;
+}
+
+.footer3 p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 991.98px) {
+
+    .navbar {
+        background-color: #505962;
+        padding-left: 0px;
+    }
+
+    .navbar-nav li {
+        padding-right: 15px;
+    }
+
+    .nav-link {
+        font-size: 1rem !important;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-68%);
+    }
+    
+    .carousel-caption h1 {
+        font-size: 375%;
+        text-shadow: 5px 3px 5px #000000;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 500;
+        text-shadow: 5px 3px 5px #000000;
+    }
+
+    .social a {
+        font-size: 3.5em;
+        padding: 1.5rem;
+    }
+
+    #projectheader {
+        font-size: 2.7rem;
+    }
+
+    #projectcaption {
+        font-size: 0.9rem;
+    }
+
+    .card {
+        margin: 0rem;
+        padding: 2rem 2rem 1rem 2rem;
+        border-color: #505962;
+        border-style: solid;
+        border-width: .2rem;
+        border-radius: 35px 35px 35px 35px;
+    }
+
+    .card h4 {
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .card img {
+        height: 250px;
+        width: 350px;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-body p {
+        font-size: 0.82rem;
+    }
+
+    #hrfooter {
+        margin-bottom: 0px;
+    }
+
+    .contactcaption h2 {
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    .contactcaption p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    .social {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .social a {
+        margin: 0px; 
+    }
+
+}
+
+@media (max-width: 767.98px) { 
+
+    .navbar {
+        background-color: #505962;
+        padding-left: 1rem;
+    }
+
+    .navbar-nav li {
+        padding-right: 15px;
+    }
+
+    .nav-link {
+        font-size: 1rem !important;
+    }
+
+    .card {
+        margin: 0rem;
+        padding: 2rem 2rem 1rem 2rem;
+        border-color: #505962;
+        border-style: solid;
+        border-width: .2rem;
+        border-radius: 35px 35px 35px 35px;
+    }
+
+    .card h4 {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .card img {
+        height: 350px;
+        width: 450px;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-body p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        display: block;
+        width: 100%
+    }
+ }
+
+ @media (max-width: 575.98px) {
+
+    .carousel-caption {
+        position: absolute;
+        top: 65%;
+        /* transform: translateY(-68%); */
+    }
+
+    .carousel-caption h1 {
+        font-size: 200%;
+        text-shadow: 5px 3px 5px #000000;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 100%;
+        font-weight: 500;
+        text-shadow: 5px 3px 5px #000000;
+    }
+
+    .card img {
+        height: 320px;
+        width: 350px;
+    }
+
+    .card h4 {
+        font-size: 1.3rem;
+    }
+
+    .card-body p {
+        font-size: 0.85rem;
+    }
+
+    #projectheader {
+        font-size: 1.8rem;
+    }
+
+    #projectcaption {
+        font-size: 0.9rem;  
+        margin-left: 1.8rem;
+        margin-right: 1.8rem;
+        line-height: 1.6;
+    }
+
+    .social a {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    
+    .contactcaption h2 {
+       font-size: 1.7rem;
+    }
+
+    .contactcaption p {
+        font-size: 0.85rem;
+    }
+
+
+  }
