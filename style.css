@@ -63,12 +63,16 @@ body {
 }
 
 .card {
-    margin: 1rem;
-    padding: 3rem 5rem 2rem 5rem;
-    border-color: #505962;
-    border-style: solid;
-    border-width: .3rem;
-    border-radius: 35px 35px 35px 35px;
+    margin: 1rem 0.4rem;
+    /* padding: 3rem 5rem 2rem 5rem; */
+    /* border-color: #505962; */
+    border: none;
+    box-shadow: 0 10px 50px rgba(0,0,0,.2);
+    padding: 30px 40px;
+    height: 650px;
+    /* border-style: solid; */
+    /* border-width: .3rem; */
+    /* border-radius: 35px 35px 35px 35px; */
 }
 
 
@@ -82,9 +86,10 @@ body {
     color: #222;
 }
 
+
 .card img {
-    height: 350px;
-    width: 450px;
+    height: 325px;
+    width: 425px;
     max-width: 100%;
     display: block;
     margin-left: auto;
@@ -122,7 +127,7 @@ hr {
 }
 
 #projectcaption {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     line-height: 1.6;
 }
 
@@ -140,6 +145,19 @@ hr {
     margin-top: 0px;
     font-size: 0.8rem;
 }
+
+@media (max-width: 1279px) { 
+
+    .card-body p {
+        font-size: 0.82rem;
+    }
+
+    .card img {
+        height: 300px;
+        width: 400px;
+    }
+
+ }
 
 @media (max-width: 991.98px) {
 
@@ -187,17 +205,19 @@ hr {
     }
 
     .card {
-        margin: 0rem;
-        padding: 2rem 2rem 1rem 2rem;
-        border-color: #505962;
-        border-style: solid;
-        border-width: .2rem;
-        border-radius: 35px 35px 35px 35px;
+        /* margin: 0rem;
+        padding: 2rem 2rem 1rem 2rem; */
+        /* border-color: #505962; */
+        /* border-style: solid; */
+        /* border-width: .2rem; */
+        /* border-radius: 35px 35px 35px 35px; */
+        padding: 20px 25px;
+        height: 550px;
     }
 
     .card h4 {
         margin-bottom: 1rem;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .card img {
@@ -210,6 +230,10 @@ hr {
     }
 
     .card-body p {
+        font-size: 0.82rem;
+    }
+
+    .card-link {
         font-size: 0.82rem;
     }
 
@@ -254,22 +278,27 @@ hr {
     }
 
     .card {
-        margin: 0rem;
+        margin: 1rem 8rem;
+        padding: 30px 70px;
+        height: 540px;
+
+        /* margin: 0rem;
         padding: 2rem 2rem 1rem 2rem;
         border-color: #505962;
         border-style: solid;
         border-width: .2rem;
-        border-radius: 35px 35px 35px 35px;
+        border-radius: 35px 35px 35px 35px; */
+        
     }
 
     .card h4 {
         margin-bottom: 1rem;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     .card img {
-        height: 350px;
-        width: 450px;
+        height: 250px;
+        width: 350px;
         max-width: 100%;
         display: block;
         margin-left: auto;
@@ -305,9 +334,15 @@ hr {
         text-shadow: 5px 3px 5px #000000;
     }
 
+    .card {
+        margin: 1rem 4rem;
+        padding: 25px 50px;
+        height: 500px;
+    }
+
     .card img {
-        height: 320px;
-        width: 350px;
+        height: 220px;
+        width: 250px;
     }
 
     .card h4 {
@@ -315,7 +350,11 @@ hr {
     }
 
     .card-body p {
-        font-size: 0.85rem;
+        font-size: 0.82rem;
+    }
+
+    .card-link {
+        font-size:0.82rem;
     }
 
     #projectheader {
