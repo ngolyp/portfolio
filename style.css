@@ -100,6 +100,10 @@ body {
     padding-bottom: 1.5rem;
 }
 
+/* #contact p {
+    text-align: left;
+} */
+
 .fa-envelope,
 .fa-linkedin,
 .fa-github,
@@ -129,6 +133,7 @@ hr {
 #projectcaption {
     font-size: 1.1rem;
     line-height: 1.6;
+    text-align: left;
 }
 
 .footer2 {
@@ -350,11 +355,11 @@ hr {
     }
 
     .card-body p {
-        font-size: 0.7rem;
+        font-size: 0.82rem;
     }
 
     .card-link {
-        font-size:0.7rem;
+        font-size:0.82rem;
     }
 
     #projectheader {
@@ -374,12 +379,12 @@ hr {
     }
 
     
-    .contactcaption h2 {
-       font-size: 1.7rem;
+    #contact h2 {
+       font-size: 1.5rem;
     }
 
-    .contactcaption p {
-        font-size: 0.85rem;
+    #contact p {
+        font-size: 0.82rem;
     }
 
 
