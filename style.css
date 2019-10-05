@@ -133,7 +133,7 @@ hr {
 #projectcaption {
     font-size: 1.1rem;
     line-height: 1.6;
-    text-align: left;
+    text-align: center;
 }
 
 .footer2 {
@@ -318,6 +318,11 @@ hr {
         display: block;
         width: 100%
     }
+
+    #projectcaption {
+        text-align: left;
+    }
+
  }
 
  @media (max-width: 575.98px) {
