@@ -8,4 +8,4 @@ Purpose: To create a portfolio page to showcase my projects. Implemented with Bo
 
 Future Implementation: Redesign my portfolio page with a front-end framework such as React. Include a email button which allows vistors to send me a message which will be stored in a cloud database such as Firebase.
 
-*Update: Portfolio redirects to new portfolio page.
+***Update: Portfolio redirects to new portfolio page.
